@@ -27,10 +27,15 @@ This C++ program is a simple data analysis tool that calculates the mean and sta
 
 ## Example
 Enter the number of data points: 5
+
 Enter data point 1: 10
+
 Enter data point 2: 12
+
 Enter data point 3: 8
+
 Enter data point 4: 15
+
 Enter data point 5: 11
 
 ## Notes
