@@ -4,7 +4,6 @@
 
 using namespace std;
 
-// Function to calculate the mean of a vector of values
 double calculateMean(const vector<double>& data) {
     double sum = 0.0;
     for (const double& value : data) {
@@ -13,7 +12,6 @@ double calculateMean(const vector<double>& data) {
     return sum / data.size();
 }
 
-// Function to calculate the standard deviation of a vector of values
 double calculateStandardDeviation(const vector<double>& data, double mean) {
     double sumSquaredDiff = 0.0;
     for (const double& value : data) {
@@ -30,10 +28,8 @@ int main() {
     cout << "Enter the number of data points: ";
     cin >> numDataPoints;
 
-    // Validate input for the number of data points
     if (numDataPoints <= 0) {
         cerr << "Invalid number of data points. Please enter a positive integer." << endl;
-        return 1; // Exit with an error code
     }
 
     vector<double> data;
