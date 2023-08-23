@@ -11,6 +11,7 @@ This C++ program is a simple data analysis tool that calculates the mean and sta
 3. **Mean Calculation**: The program calculates the mean (average) of the provided data points using the formula: `sum of all data points / number of data points`.
 
 4. **Standard Deviation Calculation**: The standard deviation, a measure of the dispersion of data points from the mean, is calculated using the formula: `sqrt(sum of squared differences from the mean / number of data points)`.
+5. **Histogram Generation**: The program generates a histogram of the data points using the GNU Plot library. The histogram provides a visual representation of the data distribution.
 
 ## Usage
 
@@ -26,7 +27,7 @@ This C++ program is a simple data analysis tool that calculates the mean and sta
 5. The program will output the calculated mean and standard deviation of the provided data points.
 
 ## Example
-Enter the number of data points: 5
+Enter the number of data points: 5 
 
 Enter data point 1: 10
 
@@ -38,10 +39,16 @@ Enter data point 4: 15
 
 Enter data point 5: 11
 
+Mean: 11.2
+
+Standard Deviation: 2.48998
+
+
 ## Notes
 
 - The program validates input to ensure it adheres to the requirements for positive integers.
 - This tool is designed for basic data analysis and may not handle extremely large data sets efficiently.
+- GNU Plot is used for generating histograms, and its installation is required.
 - Feel free to modify and adapt the code for more advanced analysis or user interface improvements.
 
 ## Author
